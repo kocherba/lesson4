@@ -1,0 +1,72 @@
+.header{
+    width:1280px;
+    height:120px;
+}
+.text{
+    padding-left:56px;
+    padding-top: 30px;
+}
+.menu{
+    width:1280px;
+    height:120px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.photo{
+    width:370px;
+    height:266px;
+    border-radius: 10px;
+}
+.but1{
+    display: inline-block;
+    margin-left: 56px;
+    margin-top: 65px;
+    border: 1px solid black;
+    padding: 15px 20px 15px 20px;
+
+}
+.but2{
+    display: inline-block;
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+}
+.but3{
+    display: inline-block;
+    padding: 15px 20px 15px 20px;
+}
+.but4{
+    display: inline-block;
+    padding: 15px 20px 15px 20px;
+}
+.a{ background:red;
+    width:370px;
+    height:266px;
+    float:left;
+    margin-top: 40px;
+    margin-left: 56px;
+    border-radius: 10px;
+}
+.b{
+    background: red;
+    width:370px;
+    height:266px;
+    float:left;
+    margin-top: 40px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.c{
+    background:yellow;
+    width:370px;
+    height:266px;
+    float:right;
+    margin-top: 40px;
+    margin-right: 56px;
+    border-radius: 10px;
+}
+body{
+    width:1280px;
+    height: 1244px;
+}
