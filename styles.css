@@ -40,7 +40,9 @@ a{
     display: inline-block;
     padding: 15px 20px 15px 20px;
 }
-.a{ background:red;
+.a1{
+    background:url(images/1.jpg) no-repeat;
+    background-size: cover;
     width:370px;
     height:266px;
     float:left;
@@ -48,8 +50,41 @@ a{
     margin-left: 56px;
     border-radius: 10px;
 }
-.b{
-    background: red;
+.a11{
+    color: white;
+    margin-top: 200px;
+}
+.a2{
+    background:url(images/4.jpg) no-repeat;
+    background-size: cover;
+    width:370px;
+    height:266px;
+    float:left;
+    margin-top: 40px;
+    margin-left: 56px;
+    border-radius: 10px;
+}
+.a21{
+    color: white;
+    margin-top: 200px;
+}
+.a3{
+    background:url(images/7.jpg) no-repeat;
+    background-size: cover;
+    width:370px;
+    height:266px;
+    float:left;
+    margin-top: 40px;
+    margin-left: 56px;
+    border-radius: 10px;
+}
+.a31{
+    color: white;
+    margin-top: 200px;
+}
+.b1{
+    background:url(images/2.jpg) no-repeat;
+    background-size: cover;
     width:370px;
     height:266px;
     float:left;
@@ -57,14 +92,79 @@ a{
     margin-left: 30px;
     border-radius: 10px;
 }
-.c{
-    background:yellow;
+.b11{
+    color: white;
+    margin-top: 200px;
+}
+.b2{
+    background:url(images/5.jpg) no-repeat;
+    background-size: cover;
+    width:370px;
+    height:266px;
+    float:left;
+    margin-top: 40px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.b21{
+    color: white;
+    margin-top: 200px;
+}
+.b3{
+    background:url(images/8.jpg) no-repeat;
+    background-size: cover;
+    width:370px;
+    height:266px;
+    float:left;
+    margin-top: 40px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.b31{
+    color: white;
+    margin-top: 200px;
+}
+.c1{
+    background:url(images/3.jpg) no-repeat;
+    background-size: cover;
     width:370px;
     height:266px;
     float:right;
     margin-top: 40px;
     margin-right: 56px;
     border-radius: 10px;
+}
+.c11 {
+    color: white;
+    margin-top: 200px;
+}
+.c2{
+    background:url(images/6.jpg) no-repeat;
+    background-size: cover;
+    width:370px;
+    height:266px;
+    float:right;
+    margin-top: 40px;
+    margin-right: 56px;
+    border-radius: 10px;
+}
+.c21 {
+    color: white;
+    margin-top: 200px;
+}
+.c3{
+    background:url(images/9.jpg) no-repeat;
+    background-size: cover;
+    width:370px;
+    height:266px;
+    float:right;
+    margin-top: 40px;
+    margin-right: 56px;
+    border-radius: 10px;
+}
+.c31 {
+    color: white;
+    margin-top: 200px;
 }
 body{
     width:1280px;
