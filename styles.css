@@ -2,8 +2,8 @@
     width:1280px;
     height:120px;
 }
-.text{
-    padding-left:56px;
+.text1{
+    padding-left:45px;
     padding-top: 30px;
 }
 .menu{
@@ -14,14 +14,10 @@ a{
     text-decoration: none;
     color: #000;
 }
-.photo{
-    width:370px;
-    height:266px;
-    border-radius: 10px;
-}
+
 .but1{
     display: inline-block;
-    margin-left: 56px;
+    margin-left: 45px;
     margin-top: 65px;
     border: 1px solid black;
     padding: 15px 20px 15px 20px;
@@ -40,133 +36,225 @@ a{
     display: inline-block;
     padding: 15px 20px 15px 20px;
 }
-.a1{
-    background:url(images/1.jpg) no-repeat;
+a.rollover1 {
+    background: url(images/1.jpg); /* Путь к файлу с исходным рисунком  */
     background-size: cover;
-    width:370px;
-    height:266px;
+    display: block; /*  Рисунок как блочный элемент */
+    width: 370px; /* Ширина рисунка */
+    height: 266px; /*  Высота рисунка */
     float:left;
     margin-top: 40px;
-    margin-left: 56px;
+    margin-left: 45px;
     border-radius: 10px;
 }
-.a11{
-    color: white;
-    margin-top: 200px;
-}
-.a2{
-    background:url(images/4.jpg) no-repeat;
+a.rollover1:hover {
+    background:url(images/1.jpg);
     background-size: cover;
-    width:370px;
-    height:266px;
+    width: 370px; /* Ширина рисунка */
+    height: 266px; /*  Высота рисунка */
     float:left;
     margin-top: 40px;
-    margin-left: 56px;
+    margin-left: 45px;
     border-radius: 10px;
+    filter: alpha(Opacity=50);
+    opacity: 0.5;
 }
-.a21{
-    color: white;
-    margin-top: 200px;
+.text{
+    text-align: center;
+    color:white;
+    padding-left: 0px;
+    padding-top: 200px;
 }
-.a3{
-    background:url(images/7.jpg) no-repeat;
+a.rollover2 {
+    background: url(images/2.jpg); /* Путь к файлу с исходным рисунком  */
     background-size: cover;
-    width:370px;
-    height:266px;
+    display: block; /*  Рисунок как блочный элемент */
+    width: 370px; /* Ширина рисунка */
+    height: 266px; /*  Высота рисунка */
     float:left;
     margin-top: 40px;
-    margin-left: 56px;
+    margin-left: 40px;
     border-radius: 10px;
 }
-.a31{
-    color: white;
-    margin-top: 200px;
-}
-.b1{
-    background:url(images/2.jpg) no-repeat;
+a.rollover2:hover {
+    background:url(images/2.jpg);
     background-size: cover;
-    width:370px;
-    height:266px;
+    width: 370px; /* Ширина рисунка */
+    height: 266px; /*  Высота рисунка */
     float:left;
     margin-top: 40px;
-    margin-left: 30px;
+    margin-left: 40px;
     border-radius: 10px;
+    filter: alpha(Opacity=50);
+    opacity: 0.5;
 }
-.b11{
-    color: white;
-    margin-top: 200px;
-}
-.b2{
-    background:url(images/5.jpg) no-repeat;
+a.rollover3 {
+    background: url(images/3.jpg); /* Путь к файлу с исходным рисунком  */
     background-size: cover;
-    width:370px;
-    height:266px;
+    display: block; /*  Рисунок как блочный элемент */
+    width: 370px; /* Ширина рисунка */
+    height: 266px; /*  Высота рисунка */
     float:left;
     margin-top: 40px;
-    margin-left: 30px;
+    margin-left: 40px;
     border-radius: 10px;
 }
-.b21{
-    color: white;
-    margin-top: 200px;
-}
-.b3{
-    background:url(images/8.jpg) no-repeat;
+a.rollover3:hover {
+    background:url(images/3.jpg);
     background-size: cover;
-    width:370px;
-    height:266px;
+    width: 370px; /* Ширина рисунка */
+    height: 266px; /*  Высота рисунка */
     float:left;
     margin-top: 40px;
-    margin-left: 30px;
+    margin-left: 40px;
     border-radius: 10px;
+    filter: alpha(Opacity=50);
+    opacity: 0.5;
 }
-.b31{
-    color: white;
-    margin-top: 200px;
-}
-.c1{
-    background:url(images/3.jpg) no-repeat;
+a.rollover4 {
+    background: url(images/4.jpg); /* Путь к файлу с исходным рисунком  */
     background-size: cover;
-    width:370px;
-    height:266px;
-    float:right;
+    display: block; /*  Рисунок как блочный элемент */
+    width: 370px; /* Ширина рисунка */
+    height: 266px; /*  Высота рисунка */
+    float:left;
     margin-top: 40px;
-    margin-right: 56px;
+    margin-left: 45px;
     border-radius: 10px;
 }
-.c11 {
-    color: white;
-    margin-top: 200px;
-}
-.c2{
-    background:url(images/6.jpg) no-repeat;
+a.rollover4:hover {
+    background:url(images/4.jpg);
     background-size: cover;
-    width:370px;
-    height:266px;
-    float:right;
+    width: 370px; /* Ширина рисунка */
+    height: 266px; /*  Высота рисунка */
+    float:left;
     margin-top: 40px;
-    margin-right: 56px;
+    margin-left: 45px;
     border-radius: 10px;
+    filter: alpha(Opacity=50);
+    opacity: 0.5;
 }
-.c21 {
-    color: white;
-    margin-top: 200px;
-}
-.c3{
-    background:url(images/9.jpg) no-repeat;
+a.rollover5 {
+    background: url(images/5.jpg); /* Путь к файлу с исходным рисунком  */
     background-size: cover;
-    width:370px;
-    height:266px;
-    float:right;
+    display: block; /*  Рисунок как блочный элемент */
+    width: 370px; /* Ширина рисунка */
+    height: 266px; /*  Высота рисунка */
+    float:left;
     margin-top: 40px;
-    margin-right: 56px;
+    margin-left: 40px;
     border-radius: 10px;
 }
-.c31 {
-    color: white;
-    margin-top: 200px;
+a.rollover5:hover {
+    background:url(images/5.jpg);
+    background-size: cover;
+    width: 370px; /* Ширина рисунка */
+    height: 266px; /*  Высота рисунка */
+    float:left;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+    filter: alpha(Opacity=50);
+    opacity: 0.5;
 }
-body{
-    width:1280px;
-    height: 1244px;
+a.rollover6 {
+    background: url(images/6.jpg); /* Путь к файлу с исходным рисунком  */
+    background-size: cover;
+    display: block; /*  Рисунок как блочный элемент */
+    width: 370px; /* Ширина рисунка */
+    height: 266px; /*  Высота рисунка */
+    float:left;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
 }
+a.rollover6:hover {
+    background: url(images/6.jpg);
+    background-size: cover;
+    width: 370px; /* Ширина рисунка */
+    height: 266px; /*  Высота рисунка */
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+    filter: alpha(Opacity=50);
+    opacity: 0.5;
+}
+a.rollover7 {
+    background: url(images/7.jpg); /* Путь к файлу с исходным рисунком  */
+    background-size: cover;
+    display: block; /*  Рисунок как блочный элемент */
+    width: 370px; /* Ширина рисунка */
+    height: 266px; /*  Высота рисунка */
+    float:left;
+    margin-top: 40px;
+    margin-left: 45px;
+    border-radius: 10px;
+}
+a.rollover7:hover {
+    background: url(images/7.jpg);
+    background-size: cover;
+    width: 370px; /* Ширина рисунка */
+    height: 266px; /*  Высота рисунка */
+    float: left;
+    margin-top: 40px;
+    margin-left: 45px;
+    border-radius: 10px;
+    filter: alpha(Opacity=50);
+    opacity: 0.5;
+}
+a.rollover8 {
+    background: url(images/8.jpg); /* Путь к файлу с исходным рисунком  */
+    background-size: cover;
+    display: block; /*  Рисунок как блочный элемент */
+    width: 370px; /* Ширина рисунка */
+    height: 266px; /*  Высота рисунка */
+    float:left;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+a.rollover8:hover {
+    background: url(images/8.jpg);
+    background-size: cover;
+    width: 370px; /* Ширина рисунка */
+    height: 266px; /*  Высота рисунка */
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+    filter: alpha(Opacity=50);
+    opacity: 0.5;
+}
+a.rollover9 {
+    background: url(images/9.jpg); /* Путь к файлу с исходным рисунком  */
+    background-size: cover;
+    display: block; /*  Рисунок как блочный элемент */
+    width: 370px; /* Ширина рисунка */
+    height: 266px; /*  Высота рисунка */
+    float:left;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+a.rollover9:hover {
+    background: url(images/9.jpg);
+    background-size: cover;
+    width: 370px; /* Ширина рисунка */
+    height: 266px; /*  Высота рисунка */
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+    filter: alpha(Opacity=50);
+    opacity: 0.5;
+}
+.footer{
+    background: #fff;
+    background-size: cover;
+    width: 1280px; /* Ширина рисунка */
+    height: 40px; /*  Высота рисунка */
+    float: left;
+    margin-left: 40px;
+}
+
